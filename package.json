@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "mkdir": "mkdir \"dist\\misc\"",
-    "copy": "copy source\\*.html dist && copy source\\*.css dist && copy source\\misc\\*.ttf dist\\misc && copy source\\*.js dist ",
+    "copy": "copy source\\*.html dist && copy source\\*.css dist && copy source\\misc\\*.ttf dist\\misc ",
     "build": "npx rimraf ./dist && npx tsc && npm run mkdir && npm run copy"
   },
   "author": "",
