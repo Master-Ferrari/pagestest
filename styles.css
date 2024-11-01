@@ -44,9 +44,12 @@
 
     --PlayBold: Play-Bold;
     --Play: Play-Regular;
-    --PtMono: PtMono;
+    --PtMono: PT Mono;
     --Signika: Signika;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 @font-face {
     font-family: 'Play-Bold';
